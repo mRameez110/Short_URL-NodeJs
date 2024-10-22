@@ -1,0 +1,11 @@
+{
+  "name": "short-url",
+  "version": "1.0.0",
+  "description": "Its short url creation using node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rameez",
+  "license": "ISC"
+}
