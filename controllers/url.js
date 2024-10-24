@@ -24,7 +24,7 @@ async function getShortUrl(req, res) {
     {
       $push: {
         visitHistory: {
-          timestamp: Date.now(),
+          timestamp: new Date(),
         },
       },
     }
