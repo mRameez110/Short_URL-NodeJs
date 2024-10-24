@@ -20,6 +20,7 @@ async function getShortUrl(req, res) {
     {
       shortId,
     },
+    // push in Array to keep visit history
     {
       $push: {
         visitHistory: {
